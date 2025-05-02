@@ -1,0 +1,52 @@
+body h1 {
+  background-color: orange;
+  width: 12rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+h1 {
+  position: relative;
+  top: 1rem;
+  left: 44rem;
+}
+
+h1:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  position: absolute;
+  display: block;
+  top: 2.4rem;
+}
+
+.head-2:hover {
+  color: aquamarine;
+}
+
+.dropdown .dropdown-image {
+  display: none;
+}
+
+.dropdown-content:hover .dropdown-image {
+  display: block;
+}
+
+.dropdown-image img {
+  border-radius: 1rem;
+  width: 15rem;
+  position: absolute;
+  left: 42.3rem;
+  top: 4.7rem;
+}
