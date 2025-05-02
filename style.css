@@ -13,6 +13,7 @@ h1:hover {
 }
 
 .dropdown {
+  color: bisque;
   display: inline-block;
 }
 
@@ -59,4 +60,8 @@ header {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 5ch;
   color: aliceblue;
+}
+
+.head-2 {
+  color: bisque;
 }
