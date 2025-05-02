@@ -3,12 +3,8 @@ body h1 {
   width: 12rem;
   text-align: center;
   border-radius: 1rem;
-}
-
-h1 {
   position: relative;
-  top: 1rem;
-  left: 44rem;
+  left: 1.5rem;
 }
 
 h1:hover {
@@ -17,7 +13,6 @@ h1:hover {
 }
 
 .dropdown {
-  position: relative;
   display: inline-block;
 }
 
@@ -26,7 +21,6 @@ h1:hover {
 }
 
 .dropdown:hover .dropdown-content {
-  position: absolute;
   display: block;
   top: 2.4rem;
 }
@@ -46,7 +40,16 @@ h1:hover {
 .dropdown-image img {
   border-radius: 1rem;
   width: 15rem;
-  position: absolute;
-  left: 42.3rem;
-  top: 4.7rem;
+}
+
+.container {
+  position: relative;
+  border: 1px solid black;
+  background-color: darkolivegreen;
+  width: 15.3rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  border-style: none;
+  top: 5rem;
+  left: 40rem;
 }
