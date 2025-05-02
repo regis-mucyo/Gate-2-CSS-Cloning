@@ -46,10 +46,17 @@ h1:hover {
   position: relative;
   border: 1px solid black;
   background-color: darkolivegreen;
-  width: 15.3rem;
+  width: 15rem;
   border-radius: 1rem;
   padding: 1rem;
   border-style: none;
-  top: 18rem;
+  top: 17rem;
   left: 40rem;
+}
+
+header {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5ch;
+  color: aliceblue;
 }
